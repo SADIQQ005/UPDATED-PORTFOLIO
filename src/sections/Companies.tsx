@@ -9,17 +9,22 @@ const Companies: React.FC = () => {
         <div className="border rounded-lg p-6">
           <div className="flex flex-col gap-2">
             <div className="w-12 h-12 flex items-center justify-center">
-              <svg
-                width="40"
-                height="40"
-                viewBox="0 0 40 40"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M8 8H20.5L32 32H19.5L8 8Z" fill="#FF0000" />
-              </svg>
+              <img
+                src="/routepay.png"
+                alt="Routepay"
+                className="w-full h-full object-cover rounded-md"
+              />
             </div>
-            <h3 className="text-xl font-medium underline">Routepay Fintech</h3>
+            <h3 className="text-xl font-medium underline">
+              {" "}
+              <a
+                href="https://routepay.com/"
+                className="text-inherit"
+                target="_blank"
+              >
+                Routepay Fintech
+              </a>{" "}
+            </h3>
             <p className="text-gray-600">Financial Service Partner.</p>
           </div>
         </div>
@@ -27,15 +32,29 @@ const Companies: React.FC = () => {
         {/* Obsync */}
         <div className="border rounded-lg p-6">
           <div className="flex flex-col gap-2">
-            <div className="w-12 h-12 flex items-center justify-center">
+            <div className="w-12 h-12 bg-black rounded-md flex items-center justify-center">
               <svg
-                width="40"
-                height="40"
-                viewBox="0 0 40 40"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <circle cx="20" cy="20" r="12" fill="#15C39A" />
+                <path
+                  d="M12 2C10.3431 2 9 3.34315 9 5V19C9 20.6569 10.3431 22 12 22C13.6569 22 15 20.6569 15 19V5C15 3.34315 13.6569 2 12 2Z"
+                  stroke="black"
+                  strokeWidth="2"
+                />
+                <path
+                  d="M5 2C3.34315 2 2 3.34315 2 5V19C2 20.6569 3.34315 22 5 22C6.65685 22 8 20.6569 8 19V5C8 3.34315 6.65685 2 5 2Z"
+                  stroke="black"
+                  strokeWidth="2"
+                />
+                <path
+                  d="M19 2C17.3431 2 16 3.34315 16 5V19C16 20.6569 17.3431 22 19 22C20.6569 22 22 20.6569 22 19V5C22 3.34315 20.6569 2 19 2Z"
+                  stroke="black"
+                  strokeWidth="2"
+                />
               </svg>
             </div>
             <h3 className="text-xl font-medium underline">Obsync Inc.</h3>
@@ -47,25 +66,20 @@ const Companies: React.FC = () => {
         <div className="border rounded-lg p-6 border-dashed">
           <div className="flex flex-col gap-2">
             <div className="w-12 h-12 flex items-center justify-center">
-              <svg
-                width="40"
-                height="40"
-                viewBox="0 0 40 40"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle cx="20" cy="20" r="12" stroke="black" strokeWidth="2" />
-                <path
-                  d="M15 20L18 23L25 16"
-                  stroke="black"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
+              <img
+                src="/population_council.jpeg"
+                alt="Population Council"
+                className="w-full h-full object-contain rounded"
+              />
             </div>
             <h3 className="text-xl font-medium underline">
-              Population Council
+              <a
+                href="https://popcouncil.org/"
+                className="text-inherit"
+                target="_blank"
+              >
+                Population Council
+              </a>{" "}
             </h3>
             <p className="text-gray-600">INGO AID Program</p>
           </div>
