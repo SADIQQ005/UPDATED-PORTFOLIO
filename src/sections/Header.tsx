@@ -31,8 +31,7 @@ const Header: React.FC = () => {
           Building frontend solutions accross all scales including B2B startup
           solutions and mini products. Skilled in React, TypeScript, and Next.js, with a focus on
           creating user interfaces and improving performance. Familiar with
-          CI/CD, automated testing, code reviews, and supporting junior
-          developers.
+          CI/CD, automated testing.
         </p>
       </div>
     </header>
